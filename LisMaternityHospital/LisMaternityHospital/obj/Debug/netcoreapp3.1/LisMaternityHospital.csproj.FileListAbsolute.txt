@@ -1,0 +1,13 @@
+C:\Git\Lis-Maternity-Hospital\LisMaternityHospital\LisMaternityHospital\bin\Debug\netcoreapp3.1\LisMaternityHospital.exe
+C:\Git\Lis-Maternity-Hospital\LisMaternityHospital\LisMaternityHospital\bin\Debug\netcoreapp3.1\LisMaternityHospital.deps.json
+C:\Git\Lis-Maternity-Hospital\LisMaternityHospital\LisMaternityHospital\bin\Debug\netcoreapp3.1\LisMaternityHospital.runtimeconfig.json
+C:\Git\Lis-Maternity-Hospital\LisMaternityHospital\LisMaternityHospital\bin\Debug\netcoreapp3.1\LisMaternityHospital.runtimeconfig.dev.json
+C:\Git\Lis-Maternity-Hospital\LisMaternityHospital\LisMaternityHospital\bin\Debug\netcoreapp3.1\LisMaternityHospital.dll
+C:\Git\Lis-Maternity-Hospital\LisMaternityHospital\LisMaternityHospital\bin\Debug\netcoreapp3.1\LisMaternityHospital.pdb
+C:\Git\Lis-Maternity-Hospital\LisMaternityHospital\LisMaternityHospital\obj\Debug\netcoreapp3.1\LisMaternityHospital.csproj.AssemblyReference.cache
+C:\Git\Lis-Maternity-Hospital\LisMaternityHospital\LisMaternityHospital\obj\Debug\netcoreapp3.1\LisMaternityHospital.AssemblyInfoInputs.cache
+C:\Git\Lis-Maternity-Hospital\LisMaternityHospital\LisMaternityHospital\obj\Debug\netcoreapp3.1\LisMaternityHospital.AssemblyInfo.cs
+C:\Git\Lis-Maternity-Hospital\LisMaternityHospital\LisMaternityHospital\obj\Debug\netcoreapp3.1\LisMaternityHospital.csproj.CoreCompileInputs.cache
+C:\Git\Lis-Maternity-Hospital\LisMaternityHospital\LisMaternityHospital\obj\Debug\netcoreapp3.1\LisMaternityHospital.dll
+C:\Git\Lis-Maternity-Hospital\LisMaternityHospital\LisMaternityHospital\obj\Debug\netcoreapp3.1\LisMaternityHospital.pdb
+C:\Git\Lis-Maternity-Hospital\LisMaternityHospital\LisMaternityHospital\obj\Debug\netcoreapp3.1\LisMaternityHospital.genruntimeconfig.cache
