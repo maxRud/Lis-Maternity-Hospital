@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LisMaternityHospital
+namespace LisMaternityHospital.Employees
 {
-    class ProfessionalEmployee: Employee
+    class ProfessionalEmployee : Employee
     {
     }
 }

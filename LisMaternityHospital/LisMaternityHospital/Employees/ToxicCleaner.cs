@@ -5,11 +5,13 @@ using System.Text;
 
 namespace LisMaternityHospital.Employees
 {
-    class ExpertDoctor : SeniorDoctor
+    class ToxicCleaner: Cleaner
     {
-        public ExpertDoctor(): base()
+        public ToxicCleaner(): base()
         {
+            ranks.Add(new DecisionMaker());
             ranks.Add(new Specialist());
+            ranks.Add(new EmployeeAtRisk(20));
         }
     }
 }

@@ -1,10 +1,16 @@
-﻿using System;
+﻿using LisMaternityHospital.Ranks;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LisMaternityHospital
+namespace LisMaternityHospital.Employees
 {
-    class ViceDepartmentManager: ProfessionalEmployee
+    class ViceDepartmentManager : ProfessionalEmployee
     {
+        public ViceDepartmentManager()
+        {
+            ranks.Add(new Manager());
+            ranks.Add(new DecisionMaker());
+        }
     }
 }

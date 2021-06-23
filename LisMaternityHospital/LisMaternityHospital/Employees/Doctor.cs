@@ -1,10 +1,15 @@
-﻿using System;
+﻿using LisMaternityHospital.Ranks;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LisMaternityHospital
+namespace LisMaternityHospital.Employees
 {
-    class Doctor: ProfessionalEmployee
+    class Doctor : ProfessionalEmployee
     {
+        public Doctor()
+        {
+            ranks.Add(new SeniorEmployee());
+        }
     }
 }

@@ -1,10 +1,15 @@
-﻿using System;
+﻿using LisMaternityHospital.Ranks;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LisMaternityHospital
+namespace LisMaternityHospital.Employees
 {
-    class Chef: Cook
+    class Chef : SuChef
     {
+        public Chef() : base()
+        {
+            ranks.Add(new DecisionMaker());
+        }
     }
 }

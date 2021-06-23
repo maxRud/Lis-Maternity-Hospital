@@ -1,10 +1,15 @@
-﻿using System;
+﻿using LisMaternityHospital.Ranks;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LisMaternityHospital
+namespace LisMaternityHospital.Employees
 {
-    class Cleaner: AdministrativeEmployee
+    class Cleaner : AdministrativeEmployee
     {
+        public Cleaner()
+        {
+            ranks.Add(new JuniorEmployee());
+        }
     }
 }
