@@ -11,7 +11,7 @@ namespace LisMaternityHospital
             Console.WriteLine("Hello World!");
 
             var time = DateTime.Now;
-            Cleaner a = new Cleaner("Donaold", "Trump");
+            HeadMaster a = new HeadMaster("Donaold", "Trump");
             a.StartShift(time);
             a.EndShift(time.AddHours(10));
             Console.WriteLine(a.CalculateSalary());

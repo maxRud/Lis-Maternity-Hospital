@@ -14,7 +14,7 @@ namespace LisMaternityHospital.Ranks
         }
         public double CalculateBonus(IEmployee employee)
         {
-            return 0;
+            return employee.hourSalary * (riskPercentage / 100) * employee.GetWorkHours();
         }
     }
 }

@@ -7,10 +7,17 @@ namespace LisMaternityHospital.Employees
 {
     interface IEmployee
     {
-        public double CalculateSalary();
+        public string firstName { get; }
+        public string lastName { get; }
         public double hourSalary { get; set; }
         public double fixedSalary { get; set; }
         public IList<WorkTracker> shifts { get; set; }
+        public void EndShift();
+        public void StartShift();
+        public void EndShift(DateTime endDate);
+        public void StartShift(DateTime startDate);
+        public double CalculateSalary();
         public double GetWorkHours();
+
     }
 }

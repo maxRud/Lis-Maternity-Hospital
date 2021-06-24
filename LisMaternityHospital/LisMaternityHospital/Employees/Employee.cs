@@ -24,20 +24,6 @@ namespace LisMaternityHospital.Employees
             this.lastName = lastName;
         }
 
-        public double CalculateSalary()
-        {
-            return fixedSalary + hourSalary * this.GetWorkHours() + ranks.ToList().Sum(rank => rank.CalculateBonus(this));
-        }
-
-        public double GetWorkHours()
-        {
-            
-
-            return shifts.ToList()
-                .Where(shift => shift.EndTime.Month == DateTime.Now.Month)
-                .Sum(shift => ((shift.EndTime - shift.StartTime).TotalHours));
-        }
-
         public void StartShift()
         {
             shifts.Add(new WorkTracker());
@@ -59,7 +45,18 @@ namespace LisMaternityHospital.Employees
             //if there is a shift that ends one month later so...
             shifts.Last().FinishedWorking();
         }
+        public double CalculateSalary()
+        {
+            return fixedSalary + hourSalary * this.GetWorkHours() + ranks.ToList().Sum(rank => rank.CalculateBonus(this));
+        }
 
-        
+        public double GetWorkHours()
+        {
+            return shifts.ToList()
+                .Where(shift => shift.EndTime.Month == DateTime.Now.Month)
+                .Sum(shift => ((shift.EndTime - shift.StartTime).TotalHours));
+        }
+
+
     }
 }
