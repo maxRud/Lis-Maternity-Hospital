@@ -7,7 +7,7 @@ namespace LisMaternityHospital.Employees
 {
     class Cleaner : AdministrativeEmployee
     {
-        public Cleaner()
+        public Cleaner(string firstName, string lastName): base(firstName, lastName)
         {
             ranks.Add(new JuniorEmployee());
         }

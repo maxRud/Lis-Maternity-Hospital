@@ -7,7 +7,7 @@ namespace LisMaternityHospital.Employees
 {
     class Nurse : ProfessionalEmployee
     {
-        public Nurse()
+        public Nurse(string firstName, string lastName) : base(firstName, lastName)
         {
             ranks.Add(new JuniorEmployee());
         }

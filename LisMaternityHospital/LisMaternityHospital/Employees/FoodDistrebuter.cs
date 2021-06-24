@@ -7,7 +7,7 @@ namespace LisMaternityHospital.Employees
 {
     class FoodDistrebuter : AdministrativeEmployee
     {
-        public FoodDistrebuter()
+        public FoodDistrebuter(string firstName, string lastName) : base(firstName, lastName)
         {
             ranks.Add(new JuniorEmployee());
         }

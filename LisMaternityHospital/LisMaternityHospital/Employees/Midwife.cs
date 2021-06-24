@@ -7,7 +7,7 @@ namespace LisMaternityHospital.Employees
 {
     class Midwife : Nurse
     {
-        public Midwife(): base()
+        public Midwife(string firstName, string lastName) : base(firstName, lastName)
         {
             ranks.Add(new SeniorEmployee());
         }

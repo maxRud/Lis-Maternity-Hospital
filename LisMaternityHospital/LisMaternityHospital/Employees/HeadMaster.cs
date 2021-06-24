@@ -7,7 +7,7 @@ namespace LisMaternityHospital.Employees
 {
     class HeadMaster : AdministrativeEmployee
     {
-        public HeadMaster()
+        public HeadMaster(string firstName, string lastName) : base(firstName, lastName)
         {
             ranks.Add(new Manager());
             ranks.Add(new DecisionMaker());

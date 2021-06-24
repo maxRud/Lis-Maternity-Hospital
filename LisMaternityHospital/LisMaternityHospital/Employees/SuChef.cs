@@ -7,7 +7,7 @@ namespace LisMaternityHospital.Employees
 {
     class SuChef : Cook
     {
-        public SuChef() : base()
+        public SuChef(string firstName, string lastName) : base(firstName, lastName)
         {
             ranks.Add(new Specialist());
         }

@@ -7,7 +7,7 @@ namespace LisMaternityHospital.Employees
 {
     class ProCleaner : AdministrativeEmployee
     {
-        public ProCleaner()
+        public ProCleaner(string firstName, string lastName) : base(firstName, lastName)
         {
             ranks.Add(new SeniorEmployee());
         }

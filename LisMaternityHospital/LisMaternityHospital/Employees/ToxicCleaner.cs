@@ -7,7 +7,7 @@ namespace LisMaternityHospital.Employees
 {
     class ToxicCleaner: Cleaner
     {
-        public ToxicCleaner(): base()
+        public ToxicCleaner(string firstName, string lastName) : base(firstName, lastName)
         {
             ranks.Add(new DecisionMaker());
             ranks.Add(new Specialist());

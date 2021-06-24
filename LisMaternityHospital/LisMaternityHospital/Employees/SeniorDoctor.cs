@@ -7,7 +7,7 @@ namespace LisMaternityHospital.Employees
 {
     class SeniorDoctor : Doctor
     {
-        public SeniorDoctor(): base()
+        public SeniorDoctor(string firstName, string lastName) : base(firstName, lastName)
         {
             ranks.Add(new DecisionMaker());
         }

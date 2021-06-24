@@ -7,7 +7,7 @@ namespace LisMaternityHospital.Employees
 {
     class ViceDepartmentManager : ProfessionalEmployee
     {
-        public ViceDepartmentManager()
+        public ViceDepartmentManager(string firstName, string lastName) : base(firstName, lastName)
         {
             ranks.Add(new Manager());
             ranks.Add(new DecisionMaker());

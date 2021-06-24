@@ -7,7 +7,7 @@ namespace LisMaternityHospital.Employees
 {
     class ExpertDoctor : SeniorDoctor
     {
-        public ExpertDoctor(): base()
+        public ExpertDoctor(string firstName, string lastName) : base(firstName, lastName)
         {
             ranks.Add(new Specialist());
         }

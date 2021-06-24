@@ -7,7 +7,7 @@ namespace LisMaternityHospital.Employees
 {
     class DepartmentManager : ProfessionalEmployee
     {
-        public DepartmentManager()
+        public DepartmentManager(string firstName, string lastName) : base(firstName, lastName)
         {
             ranks.Add(new Manager());
             ranks.Add(new DecisionMaker());

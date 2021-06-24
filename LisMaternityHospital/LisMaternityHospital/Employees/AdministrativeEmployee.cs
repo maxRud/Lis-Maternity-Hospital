@@ -6,5 +6,9 @@ namespace LisMaternityHospital.Employees
 {
     class AdministrativeEmployee : Employee
     {
+        public AdministrativeEmployee(string firstName, string lastName) : base(firstName, lastName)
+        {
+
+        }
     }
 }
