@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LisMaternityHospital.Employees.AdministrativeEmployee" Collapsed="true">
+    <Position X="29.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\AdministrativeEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.BreechBirthIntern" Collapsed="true">
+    <Position X="53" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\BreechBirthIntern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.BreechBirthMidwife" Collapsed="true">
+    <Position X="39.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\BreechBirthMidwife.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.Chef" Collapsed="true">
+    <Position X="23.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\Chef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.Cleaner" Collapsed="true">
+    <Position X="30.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\Cleaner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.CleanerManager" Collapsed="true">
+    <Position X="32.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\CleanerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.Cook" Collapsed="true">
+    <Position X="23.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\Cook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.DepartmentManager" Collapsed="true">
+    <Position X="44" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\DepartmentManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.Doctor" Collapsed="true">
+    <Position X="50.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\Doctor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.Employee" Collapsed="true">
+    <Position X="39.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAACBRAARAAAAACAAAAAAAAAAAAAAAQCAAAAAA=</HashCode>
+      <FileName>Employees\Employee.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.ExpertDoctor" Collapsed="true">
+    <Position X="50.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\ExpertDoctor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.FoodDistrebuter" Collapsed="true">
+    <Position X="35" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\FoodDistrebuter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.HeadMaster" Collapsed="true">
+    <Position X="26" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\HeadMaster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.HeadNurse" Collapsed="true">
+    <Position X="37.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\HeadNurse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.Intern" Collapsed="true">
+    <Position X="53" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\Intern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.Medic" Collapsed="true">
+    <Position X="55.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\Medic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.Midwife" Collapsed="true">
+    <Position X="41.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\Midwife.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.Nurse" Collapsed="true">
+    <Position X="39.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\Nurse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.Paramedic" Collapsed="true">
+    <Position X="46.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\Paramedic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.ProCleaner" Collapsed="true">
+    <Position X="28.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\ProCleaner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.ProfessionalEmployee" Collapsed="true">
+    <Position X="46.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\ProfessionalEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.SeniorDoctor" Collapsed="true">
+    <Position X="50.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\SeniorDoctor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.SuChef" Collapsed="true">
+    <Position X="23.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\SuChef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.ToxicCleaner" Collapsed="true">
+    <Position X="30.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\ToxicCleaner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Employees.ViceDepartmentManager" Collapsed="true">
+    <Position X="48.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\ViceDepartmentManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Ranks.DecisionMaker" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="57.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ranks\DecisionMaker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LisMaternityHospital.Ranks.EmployeeAtRisk" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ranks\EmployeeAtRisk.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LisMaternityHospital.Ranks.JuniorEmployee" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ranks\JuniorEmployee.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LisMaternityHospital.Ranks.Manager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="57.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ranks\Manager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LisMaternityHospital.Ranks.SeniorEmployee" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ranks\SeniorEmployee.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LisMaternityHospital.Ranks.Specialist" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="57.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ranks\Specialist.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LisMaternityHospital.Utils.WorkTracker" Collapsed="true">
+    <Position X="59.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAgAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Utils\WorkTracker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LisMaternityHospital.Program" Collapsed="true">
+    <Position X="59.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="LisMaternityHospital.Employees.IEmployee" Collapsed="true">
+    <Position X="57.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAACBRAARAAAAAAAAAAAAAAAAAAAAAQCAAAAAA=</HashCode>
+      <FileName>Employees\IEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LisMaternityHospital.Ranks.IRank" Collapsed="true">
+    <Position X="59.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ranks\IRank.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
