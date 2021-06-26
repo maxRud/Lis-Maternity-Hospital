@@ -9,7 +9,7 @@ namespace LisMaternityHospital.Ranks
     {
         public double CalculateBonus(IEmployee employee)
         {
-            return employee.fixedSalary;
+            return 0;
         }
     }
 }

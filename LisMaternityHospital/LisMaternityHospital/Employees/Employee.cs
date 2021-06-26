@@ -7,21 +7,26 @@ using System.Text;
 
 namespace LisMaternityHospital.Employees
 {
-    class Employee : IEmployee
+    class Employee : Person, IEmployee
     {
         protected IList<IRank> ranks;
-        public string firstName { get; }
-        public string lastName { get; }
+
         public double hourSalary { get; set; } = 100;
-        public double fixedSalary { get; set; } = 0;
+        public double fixedSalary { get; set; } = 1000;
         public IList<WorkTracker> shifts { get; set; }
 
-        public Employee(string firstName, string lastName)
+        public Employee(string firstName, string lastName) : base(firstName, lastName)
         {
             ranks = new List<IRank>();
             shifts = new List<WorkTracker>();
-            this.firstName = firstName;
-            this.lastName = lastName;
+        }
+
+        public Employee(string firstName, string lastName, double hourSalary, double fixedSalary) : base(firstName, lastName)
+        {
+            ranks = new List<IRank>();
+            shifts = new List<WorkTracker>();
+            this.hourSalary = hourSalary;
+            this.fixedSalary = fixedSalary;
         }
 
         public void StartShift()
@@ -36,18 +41,39 @@ namespace LisMaternityHospital.Employees
 
         public void EndShift(DateTime endDate)
         {
-            //if there is a shift that ends one month later so...
+            LastDayInTheMonthShift(endDate);
             shifts.Last().FinishedWorking(endDate);
         }
 
         public void EndShift()
         {
-            //if there is a shift that ends one month later so...
+            LastDayInTheMonthShift(DateTime.Now);
             shifts.Last().FinishedWorking();
         }
+        private void LastDayInTheMonthShift(DateTime finishedWork)
+        {
+            if (finishedWork.Month != shifts.Last().StartTime.Month)
+            {
+                var firstDayOfNewMonth = new DateTime(finishedWork.Year, finishedWork.Month, 1);
+                var lastMilisecondOfLastMonth = firstDayOfNewMonth.AddMilliseconds(-1);
+                shifts.Last().FinishedWorking(lastMilisecondOfLastMonth);
+                StartShift(firstDayOfNewMonth);
+            }
+        }
+
         public double CalculateSalary()
         {
-            return fixedSalary + hourSalary * this.GetWorkHours() + ranks.ToList().Sum(rank => rank.CalculateBonus(this));
+            return GetSalaryByHour() + GetSalaryBonus();
+        }
+
+        public double GetSalaryBonus()
+        {
+            return ranks.ToList().Sum(rank => rank.CalculateBonus(this));
+        }
+
+        public double GetSalaryByHour()
+        {
+            return ranks.FirstOrDefault(rank => rank is Manager) != null ? fixedSalary : hourSalary * this.GetWorkHours();
         }
 
         public double GetWorkHours()
