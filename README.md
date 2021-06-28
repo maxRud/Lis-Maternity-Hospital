@@ -1,10 +1,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
   <h3 align="center">Lis Maternity Hospital</h3>
 
   <p align="center">
@@ -40,10 +36,8 @@ Built with C# language - Console Application project:
 ### Installation
 
 
-1. Install IDE - Visual Studio
-  ```sh
-  install visual studio (or some IDE that can run C#) from this site https://visualstudio.microsoft.com/
-  ```
+1. Install IDE - Visual Studio from this site https://visualstudio.microsoft.com/ (or some IDE that can run C#) 
+
 2. Clone the project from GIT
    ```sh
    git clone https://github.com/maxRud/Lis-Maternity-Hospital.git
@@ -66,3 +60,6 @@ Built with C# language - Console Application project:
 Max Rud
 
 Project Link: [https://github.com/maxRud/Lis-Maternity-Hospital](https://github.com/maxRud/Lis-Maternity-Hospital)
+
+
+[product-screenshot]: https://static.medigence.com/uploads/hospital/images/9900acbdbe36b113eb53a38db1ca1aca.jpg
