@@ -1,4 +1,3 @@
-<!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <h3 align="center">Lis Maternity Hospital</h3>
@@ -9,7 +8,6 @@
 </p>
 
 
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://static.medigence.com/uploads/hospital/images/9900acbdbe36b113eb53a38db1ca1aca.jpg)
@@ -30,7 +28,6 @@ Built with C# language - Console Application project:
 
 
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
 ### Installation
@@ -54,7 +51,6 @@ Built with C# language - Console Application project:
 * To see the UML of the classes - go to [MaternityHospital.png](https://github.com/maxRud/Lis-Maternity-Hospital/blob/dev/MaternityHospital.png)
 
 
-<!-- CONTACT -->
 ## Contact
 
 Max Rud
