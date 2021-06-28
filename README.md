@@ -48,7 +48,7 @@ Built with C# language - Console Application project:
 ### Usage
 
 * Just run eith cntrl + f5
-* To see the UML of the classes - go to [MaternityHospital.png](https://github.com/maxRud/Lis-Maternity-Hospital/blob/dev/MaternityHospital.png)
+* To see the UML of the classes - go to [MaternityHospital.png](https://github.com/maxRud/Lis-Maternity-Hospital/blob/main/MaternityHospital.png)
 
 
 ## Contact
