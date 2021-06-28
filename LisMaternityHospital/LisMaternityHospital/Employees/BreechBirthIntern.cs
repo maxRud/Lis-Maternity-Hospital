@@ -7,7 +7,7 @@ namespace LisMaternityHospital.Employees
 {
     class BreechBirthIntern : Intern
     {
-        public BreechBirthIntern(string firstName, string lastName) : base(firstName, lastName)
+        public BreechBirthIntern(string firstName, string lastName, int idNumber) : base(firstName, lastName, idNumber)
         {
             ranks.Add(new Specialist());
         }

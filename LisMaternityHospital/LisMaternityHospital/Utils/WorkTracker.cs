@@ -7,7 +7,7 @@ namespace LisMaternityHospital.Utils
     class WorkTracker
     {
         public DateTime StartTime { get; }
-        public DateTime EndTime;
+        public DateTime EndTime { set; get; } = DateTime.MinValue;
 
         public WorkTracker()
         {

@@ -6,7 +6,7 @@ namespace LisMaternityHospital.Employees
 {
     class ProfessionalEmployee : Employee
     {
-        public ProfessionalEmployee(string firstName, string lastName) : base(firstName, lastName)
+        public ProfessionalEmployee(string firstName, string lastName, int idNumber) : base(firstName, lastName, idNumber)
         {
 
         }

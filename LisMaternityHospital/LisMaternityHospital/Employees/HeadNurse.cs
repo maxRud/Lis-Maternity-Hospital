@@ -7,7 +7,7 @@ namespace LisMaternityHospital.Employees
 {
     class HeadNurse : Nurse
     {
-        public HeadNurse(string firstName, string lastName) : base(firstName, lastName)
+        public HeadNurse(string firstName, string lastName, int idNumber) : base(firstName, lastName, idNumber)
         {
             ranks.Add(new SeniorEmployee());
             ranks.Add(new DecisionMaker());

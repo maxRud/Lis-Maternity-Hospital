@@ -7,7 +7,7 @@ namespace LisMaternityHospital.Employees
 {
     class BreechBirthMidwife : Nurse
     {
-        public BreechBirthMidwife(string firstName, string lastName) : base(firstName, lastName)
+        public BreechBirthMidwife(string firstName, string lastName, int idNumber) : base(firstName, lastName, idNumber)
         {
             ranks.Add(new Specialist());
         }
